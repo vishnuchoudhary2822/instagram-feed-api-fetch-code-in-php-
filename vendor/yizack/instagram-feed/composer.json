@@ -1,0 +1,21 @@
+{
+    "name": "yizack/instagram-feed",
+    "description": "PHP library to retrieve an Instagram profile feed, embed the feed of your authorized Instagram accounts on your website. The library uses the Instagram Basic Display API with auto-refreshing access token support",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["instagram", "feed", "meta"],
+    "require": {
+        "php": ">=7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yizack\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yizack Rangel",
+            "email": "yizackr@gmail.com"
+        }
+    ]
+}
